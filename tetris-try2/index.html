@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> 
+        body {
+            background-color: brown;
+            text-align: center;
+
+        }
+        .header {
+            width: 1600px;
+        }
+        .banner {
+            border: 20;
+            padding: 30px;
+            color: white;
+            font-size: 3rem;
+        }
+
+        .menu li {
+                float: right;
+        }
+
+        .menu a {
+                display: block;
+                padding: 8px;
+                color: white;
+                font-size: 1.8rem;
+        }
+
+        .wrapper {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .display {
+            margin: 50px 20px;
+        }
+
+        #tetris {
+            margin: 50px 10px;
+            border: solid 0.6em #ebf307;
+            background-color: #000;  
+            height: 60vh;
+
+
+        }
+         #score {
+            margin: 10 auto;
+            width: 100px;
+            height: 50px;
+            display: block;
+            text-align: baseline;
+            border: solid 0.3em hsl(250, 92%, 42%);
+            background-color: #fff;  
+         }
+
+         #lines {
+            width: 100px;
+            height: 50px;
+            display: block;
+            text-align: center;
+            border: solid 0.3em hsl(250, 90%, 40%);
+            background-color: #fff;
+         }
+
+         
+        #gameover {
+       
+            border: solid 0.3em hsl(250, 94%, 49%);
+            background-color: #fff;  
+        }
+
+    </style>
+    <title>Multimodal Interface Tetris</title>
+</head>
+<body>
+    <div class="header">
+        <div class="banner">Multimodal Interface Tetris Game</div>
+        <div class="menu">
+            <ul>
+            <li><a href="#">Gesture</a></li>
+            <li><a href="#">Speech Command</a></li>
+            <li><a href="#">Key Board</a></li>
+            </ul>
+         </div>
+
+    </div>
+
+    <div class="wrapper">
+        <canvas id="tetris"></canvas>
+
+        <div class="display">
+        <div id="score"></div>
+        
+        <canvas id="gameover" width="180" height="50"></canvas>
+        </div>
+        
+        
+
+    </div>
+
+    
+    <script src="tetris.js"></script>
+
+    
+</body>
+</html>

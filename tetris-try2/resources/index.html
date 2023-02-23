@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> 
+        body {
+            background-color: brown;
+            text-align: center;
+
+        }
+
+        #tetris {
+            margin: 50px 10px;
+            border: solid 0.6em #ebf307;
+            background-color: #000;  
+            height: 60vh;
+
+
+        }
+         #score {
+            margin: 10 auto;
+            width: 100px;
+            height: 50px;
+            display: block;
+            text-align: center;
+            border: solid 0.3em hsl(250, 92%, 42%);
+            background-color: #fff;  
+         }
+
+         #lines {
+            width: 100px;
+            height: 50px;
+            display: block;
+            text-align: center;
+            border: solid 0.3em #hsl(250, 90%, 40%);
+            background-color: #fff;
+         }
+
+         
+        #gameover {
+       
+            border: solid 0.3em hsl(250, 94%, 49%);
+            background-color: #fff;  
+        }
+
+    </style>
+    <title>Tetris-try2</title>
+</head>
+<body>
+
+
+    <canvas id="tetris"></canvas>
+    <br><br>
+   <div id="score"></div>
+   <br><br>
+   <div id="lines"></div>
+    <br><br>
+    <canvas id="gameover" width="180" height="50"></canvas>
+
+    <script src="tetris.js"></script>
+</body>
+</html>
