@@ -297,6 +297,46 @@
         padding: 50px;
         background-color: #a4e5d9;
     }
+    #opinion{
+        width: 1000px;
+        height: 400px;
+        background-color:  #a4e5d9;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #opinion .section-header{
+        border-style: solid;
+        border-color: black;
+        border-width: 2px;
+        width: 50%;
+        height: 50px;
+        margin: 0px auto 25px;
+        display: flex;
+        justify-content: center;
+    }
+    #opinion .sub-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 90%;
+        height: 70%;
+    }
+    #opinion .sub-section-item{
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        width: 30%;
+        height: 100%;
+        padding: 10px 10px;
+    }
+
+    #opinion h4{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
     </style>
 </head>
 <body>
@@ -308,14 +348,14 @@
         </div>
         <nav>
             <ul>            
-            <li> <a href "">首页</a></li>
-            <li> <a href "">课程</a></li>
-            <li> <a href "">职业规划</a></li>
+            <li> <a href "">Home</a></li>
+            <li> <a href "">Cooking</a></li>
+            <li> <a href "">Opinion</a></li>
         </ul>
         </nav>
 
         <div class="search">
-            <input type="search" name="" id="" placeholder="请输入关键字"/> <button></button>
+            <input type="search" name="" id="" placeholder="Please Enter Keyword"/> <button></button>
         </div>
     </header>
     <div class="banner">
@@ -353,30 +393,62 @@
         </div>
     </div>
 
+
+
+    <div id="opinion">
+        <div class="section-header">
+            <h1>Opinion</h1>
+        </div>
+        <div class="sub-section">
+            <div class="sub-section-item">
+                <h4>The dark secret of dark foods</h4>
+                <p>Darkness has been a source of inspiration for centuries.
+                    Black-hued ingredients not only provide added variety to our food, but also can be surprisingly healthy.
+                    For example, it is reported that dark chocolate not white chocolate can reduce the risk of cardiovascular disease. 
+                    From a chemist's view, I will review what is the chemical ingredients of these dark foods.</p>
+            </div>
+            <div class="sub-section-item">
+                <h4>A conversation with chatGPT</h4>
+                <p>Nowaday chatGPT may be the best artificial intelligence chatbot ever released to the general public.
+                     Recently I have a conversation with chatGTP about some interesting topics in food and health. 
+                     Here are some surprising replies from her.</p>
+            </div>
+            <div class="sub-section-item">
+                <h4>Vegetable oil and health risk</h4>
+                <p>For a long time, we, general public, have been had a concept that vegetable oil is much healthier than animal fat oil.
+                     That is not true. 
+                     I will tell the whole story about vegetable oil and our health.</p>
+            </div>
+        </div>
+        
+    </div>
+    <!--
     <div class="article w">
         <div class="articleheader">
-            <h2>Articles</h2>
+            <h2>Opinion</h2>
         </div>
         <div class="articletable">
             <ul>
                 <li>
-                    <h4>title1</h4>
-                    <p>test1</p>
+                    <h4>The dark secret of dark foods</h4>
+                    <p>Darkness has been a source of inspiration for centuries. Black-hued ingredients not only provide added variety to our food, but also can be surprisingly healthy. For example, it is reported that dark chocolate not white chocolate can reduce the risk of cardiovascular disease. From a chemist's view, I will review what is the chemical ingredients of these dark foods.  </p>
                 </li>
                 <li>
-                    <h4>title2
+                    <h4>A conversation with chatGPT about food and health
+
                     </h4>
-                    <p>test2</p>
+                    <p>Nowaday chatGPT may be the best artificial intelligence chatbot ever released to the general public. Recently I have a conversation with chatGTP about some interesting topics in food and health. Here are some surprising replies from her.
+                    </p>
                 </li>
                 <li>
-                    <h4>title3</h4>
-                    <p>test3</p>
+                    <h4>Vegetable oil and health risk</h4>
+                    <p>For a long time, we, general public, have been had a concept that vegetable oil is much healthier than animal fat oil. That is not true. I will tell the whole story about vegetable oil and our health.</p>
                 </li>
             </ul>
 
         </div>
     </div>
-
+-->
 
     </div>
 
