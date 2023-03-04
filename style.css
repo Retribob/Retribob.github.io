@@ -617,7 +617,7 @@ color:rgb(109, 161, 206);
 	}
 
 	#education .container{
-		width: 100%;
+		width: 100vw;
 		justify-content: center;
 		align-items: center;
 		display: flex;
@@ -625,13 +625,13 @@ color:rgb(109, 161, 206);
 	}
 
 	#education .education_item{
-		width: 90%;
+		width: 100%;
 		position: relative;
 		margin-bottom: 400px;
 	}
 
 	#education .education_img img{
-		width: 75%;
+		width: 100%;
 		max-height: 350px;
 		position:absolute;
 		top: 0;
@@ -640,7 +640,7 @@ color:rgb(109, 161, 206);
 
 	#education .education_text{
 		position: absolute;
-		top: 80px;
+		top: 60px;
 		left: 300px;
 		width: 60%;
 		z-index: 2;
