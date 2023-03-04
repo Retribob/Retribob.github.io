@@ -13,7 +13,7 @@ html {
 
 body{
     background-color: rgb(230, 243, 255);
-	width: 100%;
+	max-width: 100%;
 	overflow-x: hidden;
 
 }
@@ -56,7 +56,7 @@ p {
 .section_header{
     text-align: center;
     font-weight: 200;
-    font-size: 4.2rem;
+    font-size: 4.7rem;
 }
 
 span{
@@ -69,7 +69,7 @@ span{
 }
 
 .container {
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 	max-width: 1000px;
 }
@@ -133,7 +133,7 @@ a{
 #header .nav-list ul a {
 	font-size: 2.5rem;
 	font-weight: 500;
-	letter-spacing: 0;
+	letter-spacing: 0.2rem;
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
@@ -371,7 +371,7 @@ margin-bottom: 30px;
 }
 
 #education .education_img img{
-	width: 100%;
+	width: 400px;
     height: auto;
     object-fit: cover;
     border-radius: 15px;
@@ -462,7 +462,7 @@ margin-bottom: 30px;
 /*Start of Projects section*/
 #projects .projects {
 	flex-direction: column;
-	max-width: 100%;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
@@ -617,7 +617,7 @@ color:rgb(109, 161, 206);
 	}
 
 	#education .container{
-		width: 100vw;
+		width: 100%;
 		justify-content: center;
 		align-items: center;
 		display: flex;
@@ -625,13 +625,13 @@ color:rgb(109, 161, 206);
 	}
 
 	#education .education_item{
-		width: 100%;
+		width: 90%;
 		position: relative;
 		margin-bottom: 400px;
 	}
 
 	#education .education_img img{
-		width: 100%;
+		width: 75%;
 		max-height: 350px;
 		position:absolute;
 		top: 0;
@@ -640,7 +640,7 @@ color:rgb(109, 161, 206);
 
 	#education .education_text{
 		position: absolute;
-		top: 60px;
+		top: 80px;
 		left: 300px;
 		width: 60%;
 		z-index: 2;
