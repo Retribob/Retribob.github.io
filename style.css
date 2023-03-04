@@ -20,7 +20,6 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-	width: 100vw;
 }
 
 img{
@@ -55,7 +54,7 @@ p {
 .section_header{
     text-align: center;
     font-weight: 200;
-    font-size: 6rem;
+    font-size: 5.5rem;
 }
 
 span{
@@ -285,12 +284,12 @@ a{
 
 #intro .container{
 	height: 100vh;
-	width: 90%;
+	width: 100%;
     display: flex;
 	flex-direction: column;
     align-items: center;
     justify-content: center;
-	margin-bottom: 100px;
+	margin-bottom: 150px;
 }
 
 #intro .intro_img{
@@ -353,7 +352,7 @@ margin-bottom: 30px;
 
 #education .container{
 	height: 110vh;
-	width: 80%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -415,6 +414,7 @@ margin-bottom: 30px;
 /*Start of Achievements section*/
 #achievement {
 	padding: 20rem 0 10rem 0;
+	width: 100%;
 }
 
 #achievement .section_header{
@@ -553,6 +553,7 @@ color:rgb(109, 161, 206);
 	padding-top: 20px;
 	padding-bottom: 10px;
 	align-items: center;
+	width: 100%;
 }
 
 #footer .name {
