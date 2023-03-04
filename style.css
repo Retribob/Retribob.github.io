@@ -13,7 +13,7 @@ html {
 
 body{
     background-color: rgb(230, 243, 255);
-	max-width: 100%;
+	width: 100%;
 	overflow-x: hidden;
 
 }
@@ -56,7 +56,7 @@ p {
 .section_header{
     text-align: center;
     font-weight: 200;
-    font-size: 4.7rem;
+    font-size: 4.2rem;
 }
 
 span{
@@ -69,7 +69,7 @@ span{
 }
 
 .container {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	max-width: 1000px;
 }
@@ -133,7 +133,7 @@ a{
 #header .nav-list ul a {
 	font-size: 2.5rem;
 	font-weight: 500;
-	letter-spacing: 0.2rem;
+	letter-spacing: 0;
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
@@ -371,7 +371,7 @@ margin-bottom: 30px;
 }
 
 #education .education_img img{
-	width: 400px;
+	width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 15px;
@@ -462,7 +462,7 @@ margin-bottom: 30px;
 /*Start of Projects section*/
 #projects .projects {
 	flex-direction: column;
-	max-width: 1200px;
+	max-width: 100%;
 	margin: 0 auto;
 	padding: 100px 0;
 }
