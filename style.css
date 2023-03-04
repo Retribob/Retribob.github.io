@@ -283,6 +283,9 @@ a{
 
 
 /*start of intro section*/
+#intro{
+	display: block;
+}
 
 #intro .container{
 	height: 100vh;
