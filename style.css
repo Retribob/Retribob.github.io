@@ -13,6 +13,8 @@ html {
 
 body{
     background-color: rgb(230, 243, 255);
+	max-width: 100%;
+	overflow-x: hidden;
 
 }
 
@@ -54,7 +56,7 @@ p {
 .section_header{
     text-align: center;
     font-weight: 200;
-    font-size: 5.5rem;
+    font-size: 4.7rem;
 }
 
 span{
@@ -284,12 +286,12 @@ a{
 
 #intro .container{
 	height: 100vh;
-	width: 100%;
+	width: 90%;
     display: flex;
 	flex-direction: column;
     align-items: center;
     justify-content: center;
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 }
 
 #intro .intro_img{
@@ -352,7 +354,7 @@ margin-bottom: 30px;
 
 #education .container{
 	height: 110vh;
-	width: 100%;
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -414,7 +416,6 @@ margin-bottom: 30px;
 /*Start of Achievements section*/
 #achievement {
 	padding: 20rem 0 10rem 0;
-	width: 100%;
 }
 
 #achievement .section_header{
@@ -466,7 +467,6 @@ margin-bottom: 30px;
 	padding: 100px 0;
 }
 #projects a{
-	margin-bottom: 20px;
 	font-size: 4rem;
 	text-decoration: none;
 	color: white;
@@ -476,7 +476,6 @@ margin-bottom: 30px;
 font-size: 4.2rem;
 color:rgb(109, 161, 206);
 }
-
 
 #projects .projects-header h1 {
 	margin-bottom: 50px;
@@ -514,6 +513,7 @@ color:rgb(109, 161, 206);
 	margin-bottom: 15px;
 }
 #projects .project-info p {
+	margin-top: 20px;
 	color:rgb(230, 243, 255);
 }
 #projects .project-img {
@@ -553,7 +553,6 @@ color:rgb(109, 161, 206);
 	padding-top: 20px;
 	padding-bottom: 10px;
 	align-items: center;
-	width: 100%;
 }
 
 #footer .name {
@@ -687,6 +686,11 @@ color:rgb(109, 161, 206);
 
 @media only screen and (min-width: 1200px)
 {
+	.section_header{
+		text-align: center;
+		font-weight: 200;
+		font-size: 6rem;
+	}
 	#header .hamburger {
 		display: none;
 	}
