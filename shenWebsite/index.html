@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shen's Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<section id="header">  
+    <div class="container">
+        <div class="logo">
+            <img src="./Img/logo2.png" alt="logo">
+        </div>
+
+        <div class="list-items">
+            <div class="menu">
+                <div class="bar"></div>
+            </div>
+            <ul>
+                <li><a href="#face">Home</a></li>
+                <li><a href="#selection">Food Types</a></li>
+                <li><a href="#intro">Gallery</a></li>
+                <li><a href="#articles">Opinions</a></li>
+            </ul>   
+        </div>
+    </div>
+</section>
+
+
+
+<section id="face">
+    <div class="container">
+        <div class="face-Img">
+            <img src="./Img/burger-and-vegetables-placed-on-brown-wood-surface-1565982.jpg" alt="img">
+        </div>
+    </div>
+    <div class="face-text">
+            <h1>Dr Shen's <br> Food Lab</h1>
+            <p>The right food for the right needs</p>
+            <div class="face-btn">
+                <a href="#">Details</a>
+            </div>
+    </div>        
+</section>
+
+<section id="face2">
+    <div class="container">
+        <div class="face2-Img">
+            <img src="./Img/faceImg1.jpg" alt="face">
+        </div>
+        <div class="face2-Text">
+            <h1>Dr Shen's Food Lab</h1>
+            <p>The Right Food for the Right Needs</p>
+        </div>
+        <div class="face2-Btn">
+            <a href="#">Details</a>
+        </div>
+    </div>
+</section>
+
+
+<section id="selection">
+    <div class="selection-title">
+        <h1>Food Types</h1>
+    </div>
+    <div class="container">
+        <div class="food-Type1">
+            <div class="food-Type-Img1"><img src="./Img/meat.png" alt="meat"></div>
+            <div class="food-Type-Text1">
+                <h1>Meat</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+        </div>
+        <div class="food-Type2">
+            <div class="food-Type-Img2"><img src="./Img/vegetable.png" alt="vegetable"></div>
+            <div class="food-Type-Text2">
+                <h1>Vegetables</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+        </div>
+        <div class="food-Type3">
+            <div class="food-Type-Img3"><img src="./Img/bread.png" alt="bread"></div>
+            <div class="food-Type-Text3">
+                <h1>Bread</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+        </div>
+        <div class="food-Type4">
+            <div class="food-Type-Img4"><img src="./Img/fruit.png" alt="fruit"></div>
+            <div class="food-Type-Text4">
+                <h1>Fruits</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section id="slideshow">
+        <div class="slideshowContainer">
+            <div class="slideText">
+                <h1>Food for thought</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Et malesuada fames ac turpis egestas integer eget aliquet nibh.</p>
+            </div>
+            <div class="slider">
+                <div class="slides">
+                    <!--radio buttons start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <!--radio buttons end-->
+                    <!--slide images start-->
+                    <div class="slide first">
+                        <img src="./Img/foodImg1.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./Img/foodImg2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./Img/foodImg3.jpg" alt="">
+                    </div>
+                    <!--slide images end-->
+                    <!-- automatic navigation start-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                    <!-- automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+            </div>
+
+
+        </div>
+
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 3){
+                    counter = 1;
+                }
+            }, 5000);
+        </script>
+    </section>
+
+
+<section id="articles">
+    <div class="container">
+        <div class="article-item">
+            <div class="article-info">
+                <h1>Food for thought</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Et malesuada fames ac turpis egestas integer eget aliquet nibh.</p>
+            </div>
+            <div class="article-img">
+                <img src="./Img/stockImg1.jpg" alt="">
+            </div>
+        </div>
+        <div class="article-item">
+            <div class="article-info">
+                <h1>Food for thought</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Et malesuada fames ac turpis egestas integer eget aliquet nibh.</p>
+            </div>
+            <div class="article-img">
+                <img src="./Img/stockImg2.jpg" alt="">
+            </div>
+        </div>
+        <div class="article-item">
+            <div class="article-info">
+                <h1>Food for thought</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Et malesuada fames ac turpis egestas integer eget aliquet nibh.</p>
+            </div>
+            <div class="article-img">
+                <img src="./Img/stockImg3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <div id="container">
+        <h1>Dr. Shen's Food Lab</h1>
+        <p>Email: bobomaster2003@gmail.com</p>
+        <p>Phone: 9633 8306</p>
+    </div>
+</section>
+<script src="./app.js"></script>
+</body>
+</html>
+
+
+<!--
+
+attached here are image links to attribute to the author
+for icons:
+1. <a href="https://www.flaticon.com/free-icons/vegetable" title="vegetable icons">Vegetable icons created by Eucalyp - Flaticon</a>
+2. <a href="https://www.flaticon.com/free-icons/meat" title="meat icons">Meat icons created by Freepik - Flaticon</a>
+3. <a href="https://www.flaticon.com/free-icons/bread" title="bread icons">Bread icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/fruit" title="fruit icons">Fruit icons created by Freepik - Flaticon</a>
+-->
+
+
